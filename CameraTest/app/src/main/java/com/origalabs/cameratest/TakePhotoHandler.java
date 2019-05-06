@@ -15,8 +15,6 @@ public class TakePhotoHandler
 {
     private AppCompatActivity appCompatActivity;
     public static final int CAMERA_REQUEST_CODE = 1889;
-    public static final String EXTRA_RESULT = "data";
-    private static final String TAG = "TAKE PHOTO HANDLAER";
     private TakePhotoHandlerCallback takePhotoHandlerCallback;
 
     public TakePhotoHandler(TakePhotoHandlerCallback _takePhotoHandlerCallback)

@@ -15,8 +15,6 @@ public class TakeVideoHandler
 {
     private AppCompatActivity appCompatActivity;
     public static final int VIDEO_REQUEST_CODE = 1880;
-    public static final String EXTRA_RESULT = "data";
-    private static final String TAG = "TAKE VIDEO HANDLAER";
     private TakeVideoHandler.TakeVideoHandlerCallback takeVideoHandlerCallback;
 
     public TakeVideoHandler(TakeVideoHandler.TakeVideoHandlerCallback _takeVideoHandlerCallback)
